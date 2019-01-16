@@ -1,0 +1,26 @@
+{
+    "name": "akamap/bitrix-rest-api-sdk",
+    "description": "Bitrix REST API SDK",
+    "homepage": "https://github.com/Akamap/bitrix-rest-api-sdk",
+    "license": "MIT",
+    "version": "1.0.0",
+    "keywords": [
+        "Bitrix",
+        "REST",
+        "API"
+    ],
+    "authors": [
+        {
+            "name": "Aleksey Kapranov",
+            "email": "gfx-m4@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    }
+}
